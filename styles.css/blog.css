@@ -1,0 +1,138 @@
+body{
+    background-color: #FAFAF9;
+}
+section{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight ;
+
+}
+.container{
+  display: flex;
+  gap: 100px;
+  margin: 200px 50px 0px 50px;
+  font-family: "Sora", sans-serif;
+  align-items: center;
+}
+.viewers{
+    width: 50%;
+}
+.icon{
+    background-color: bisque;
+    height: 60px;
+    border-radius: 50px;
+}
+.tittle{
+    font-size: 3em;
+    margin: 25px 0px;
+}
+.review-pera{
+    font-size: 24px;
+    font-weight: 300;
+    color: #757575;
+    line-height: 40px;
+}
+.pera{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #757575;
+    gap: 8px;
+}
+.link-item{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+}
+.google{
+    background-color: #FFFFFF;
+    padding: 50px 100px 50px 50px;
+    border-radius: 10px;
+    width: fit-content;
+    align-self: flex-end;
+    box-shadow: 0px 30px 50px 0px rgba(17, 23, 41, 0.05);
+}
+.meta{
+    background-color: #FFFFFF;
+    padding: 50px 100px 50px 50px;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 0px 30px 50px 0px rgba(17, 23, 41, 0.05);
+}
+.gol-img{
+    margin-right: 16px;
+}
+.mat-img{
+    margin-right: 16px;
+}
+.star{
+    font-size:30px ;
+    margin-left: 6px;
+}
+.gol{
+    display: flex;
+}
+.mat{
+    display: flex;
+}
+.link{
+    color: #757575;
+    font-size: 16px;
+    width: 250px;
+}
+
+/* mid-devise */
+@media screen and (min-width:576px) and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .viewers{
+        width: 100%;
+    }
+    .link-item{
+        width: 100%;
+    }
+    .google{
+        margin-right: 100px;
+    }
+    .meta{
+        margin-left: 100px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+        gap: 30px;
+        margin: 5px;
+        align-items: center;
+    }
+    .viewers{
+        width: 100%;
+    }
+    .link-item{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .google{
+        align-self: flex-start;
+        padding: 20px;
+        margin: 0px;
+        width: 80%;
+    }
+    .meta{
+        padding: 20px;
+        margin: 0px;
+        width: 80%;
+    }
+    .link{
+        width: 100%;
+    }
+}
+
+
